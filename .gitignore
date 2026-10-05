@@ -1,0 +1,16 @@
+# Virtual Environment Folder
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# JetBrains / PyCharm settings to exclude
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries/
+.idea/shelf/
+*.iml
+.idea/modules.xml
