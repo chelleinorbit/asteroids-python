@@ -18,7 +18,7 @@ def main():
         log_state()
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                return
+                raise SystemExit
         screen.fill("black")
         player.update(dt)
         player.draw(screen)
