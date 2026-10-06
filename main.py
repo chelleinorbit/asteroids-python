@@ -3,7 +3,6 @@ import pygame
 from pygame import display
 from asteroid import Asteroid
 from asteroidfield import AsteroidField
-from circleshape import CircleShape
 from constants import SCREEN_WIDTH, SCREEN_HEIGHT
 from logger import log_state
 from logger import log_event
@@ -25,7 +24,7 @@ def main():
     AsteroidField.containers = updatable
     Shot.containers = (shots, drawable, updatable)
     player = Player((SCREEN_WIDTH // 2), (SCREEN_HEIGHT // 2))
-    asteroid_field = AsteroidField()
+    AsteroidField()
     frame_clock = pygame.time.Clock()
     dt: float = 0.0
 
